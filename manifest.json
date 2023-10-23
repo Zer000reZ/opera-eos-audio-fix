@@ -26,7 +26,8 @@
         "fix.js"
       ],
       "matches": [
-        "<all_urls>"
+        "https://eosscript.com/*",
+        "https://milovana.com/*"
       ]
     }
   ]
