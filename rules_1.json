@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "extensionPath": "/fix.js" }
+    },
+    "condition": {
+      "urlFilter": "https://eosscript.com/static/js/8.edd8d7f6.chunk.js",
+      "resourceTypes": ["script"]
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "name": "opera-eos-audio-fix",
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "fix the problem with howler.js (audio libary) on opera version 100+",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "https://eosscript.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fix.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
